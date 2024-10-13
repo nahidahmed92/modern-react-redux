@@ -1,0 +1,35 @@
+html {
+  background-color: bisque;
+}
+
+button {
+  background-color: lightgreen;
+  border: 2px solid green;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  width: 30%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.animal-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animal {
+  height: 200px;
+}
+
+.heart {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
